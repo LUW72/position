@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position, űrlap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header><h1>Position</h1></header>
+        <nav>
+            <ul class="menu">
+                <li><a class="dropbtn" href="#">Menü</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn">Almenü</a>
+                    <div class="dropdown-content">
+                        <a href="#">almenü</a>
+                        <a href="#">almenü</a>
+                    </div>
+                </li>
+                <li><a class="dropbtn" href="#">Menü</a></li>
+            </ul>
+        </nav>
+        <article>
+            <section class="keret">
+                <div id="ablak">
+                    <span class="bezar" onclick="bezar()">X</span>
+                    <form>
+                        <fieldset>
+                            <legend>Tetszik a Position tulajdonság?</legend>
+                            <label for="igen">Igen </label>
+                                <input type="radio" name="kerdes" id="igen" />
+                            <label for="nem">Nem </label>
+                                <input type="radio" name="kerdes" id="nem" />
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+            <section class="galeria">
+                <div class="kep">
+                    <div class="kiskep">
+                        <img
+                            src="kepek/erdo.jpg"
+                            alt="Téli erdő"
+                        />
+
+                        <div class="megjelenokep">
+                            <img
+                            src="kepek/erdo.jpg"
+                            alt="Téli erdő"
+                            />
+                        </div>
+                    </div>
+                    <div class="kiskep">
+                        <img
+                            src="kepek/erdo.jpg"
+                            alt="Téli erdő"
+                        />
+
+                        <div class="megjelenokep">
+                            <img
+                                src="kepek/erdo.jpg"
+                                alt="Téli erdő"
+                            />
+                        </div>
+                    </div>
+                    <div class="kiskep">
+                        <img
+                            src="kepek/erdo.jpg"
+                            alt="Téli erdő"
+                        />
+
+                        <div class="megjelenokep">
+                            <img
+                                src="kepek/erdo.jpg"
+                                alt="Téli erdő"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        
+        <footer><p>LUW72</p></footer>
+    </main>
+</body>
+</html>

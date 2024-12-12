@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+/* header{
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    width: 100%;
+}
+
+footer{
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    width: 100%;
+} */
+
+header {
+    margin-top: 150px;
+}
+
+main{
+    position: relative;
+    /* padding-top: 100px; */
+}
+
+.keret {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+
+}
+
+nav {
+  position: fixed;
+  top: 50%;
+  background: rgb(218, 233, 238);
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 5px;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+.megjelenokep {
+    display: none;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-color: #f1f1f1; */
+  min-width: 40px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #18b4c5;
+  border-radius: 15px;
+  border: 1px solid grey;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
